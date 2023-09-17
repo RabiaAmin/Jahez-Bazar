@@ -1,0 +1,497 @@
+/* ***********************************
+   ----------  Mobile --------------------
+   ************************************** */
+   @media (max-width: 480px){
+    .about-us-wrapper {
+        margin: 1em;
+    }
+    .about-us-head{
+        padding: 0;
+    }
+    .about-us-wrapper h1 {
+        font-size: 1em !important;
+        margin-right: 2em;
+        line-height: 1.4em;
+        font-weight: bold;
+        color: var(--black-color);     
+    }
+    .about-us-wrapper p {
+        margin-right: 0em;
+        letter-spacing: 0.01em;
+        line-height: 1.2em;
+        opacity: 85%;
+        font-size: x-small;
+        margin-top: 0.5em;
+    }
+    .about-us-wrapper .btn{
+        margin-right: 0em !important;
+        top: 0;
+        padding: 0.5em 1.5em;
+        font-size: small;
+        font-weight: normal;
+    }
+    .about-us-wrapper .img1{
+        display: none;
+    }
+
+    .about-us-wrapper h2{
+        margin-top: 2em;
+        color: var(--Purpule-color) !important;
+       }
+       .about-us-wrapper .feature-img {
+        width: 10em;
+        height: 9em;
+    }
+    .feature-container {
+        margin-top: -19em;
+            margin-right: 0em;
+            margin-left: 0em;
+        padding: 0em 0em;
+    }
+
+    .feature-container div h4{
+        font-size: medium !important;
+        font-weight: bold;
+    }
+    .feature-container div h6{
+        font-size: x-small !important;
+        font-weight: normal;
+    }
+    .feature2, .feature4 {
+        padding-left: 0em;
+    }
+    .footer {
+        height: 77%;
+    }
+   }
+
+
+/* ***********************************
+   ----------  Small Tablets --------------------
+   ************************************** */
+   @media (min-width: 480px) and (max-width: 728px){
+    .about-us-head {
+        padding: 0em 0em;
+    }
+    .about-us-wrapper h1 {
+        font-size: 2em !important;
+        margin-right: 0em;
+      
+    }
+    .about-us-wrapper p {
+        margin-right: 0em;
+        
+    }
+
+    .about-us-wrapper .btn {
+        text-decoration: none;
+        color: var(--white-color);
+        background-color: var(--Secondary-color);
+        font-size: small;
+        font-family: 'Abel';
+        padding: 0.7em 3em;
+        box-shadow: none !important;
+        position: relative;
+        top: 0em;
+    }
+
+    .about-us-wrapper .img1 {
+        width: 15em;
+        top: -3em;
+        left: 12em;
+        margin-right: 4em;
+       
+    }
+
+    .about-us-wrapper h2 {
+        margin-top: -1em;
+        text-align: center;
+        margin-bottom: 1em;
+        z-index: 9 !important;
+        position: relative;
+    }
+
+    .feature-container {
+        margin-top: -15em;
+        margin-right: 0em;
+        margin-left: 0em;
+        padding: 0em 0em;
+    }
+
+    .about-us-wrapper .feature-img {
+        width: 10em;
+    }
+    .feature-container div h4 {
+       
+        font-size: medium !important;
+        font-weight: 700;
+      
+    }
+    .feature-container div h6 {
+
+        font-size: small !important;
+        font-weight: normal;
+    }
+    .feature2, .feature4 {
+        padding-left: 0em;
+    }
+
+    .feature-card-container div {
+        width: 30%;
+        padding: 1em 2em;
+    }
+
+
+   }
+ 
+
+
+   @media (min-width: 728px) and (max-width: 767px){
+    .about-us-head {
+        padding: 0em 0em;
+    }
+    .about-us-wrapper h1 {
+        font-size: 2em !important;
+        margin-right: 5em;
+    }
+    .about-us-wrapper .img1 {
+        width: 15em;
+        top: -3em;
+        left: 21em;
+        margin-right: 4em;
+    }
+   
+   
+.about-us-wrapper p {
+    margin-right: 5em;
+}
+.about-us-wrapper .btn {
+    
+    padding: 0.7em 3em;
+    top: 0em;
+}
+
+
+.about-us-wrapper h2 {
+    margin-top: -1em;
+    text-align: center;
+    margin-bottom: 1em;
+    z-index: 9 !important;
+    position: relative;
+}
+
+.feature-container {
+    margin-top: -15em;
+    margin-right: 0em;
+    margin-left: 0em;
+    padding: 0em 0em;
+    padding-left: 3em;
+}
+
+.about-us-wrapper .feature-img {
+    width: 10em;
+}
+.feature-container div h4 {
+   
+    font-size: medium !important;
+    font-weight: 700;
+  
+}
+.feature-container div h6 {
+
+    font-size: small !important;
+    font-weight: normal;
+}
+.feature2, .feature4 {
+    padding-left: 0em;
+}
+
+.feature-card-container div {
+    width: 30%;
+    padding: 1em 2em;
+}
+   }
+
+/* ***********************************
+   ----- Tablets & Small Laptops -------
+   ************************************** */
+   @media (min-width: 767px) and (max-width: 872px){
+    .about-us-head {
+        padding: 0em 0em;
+    }
+
+    .about-us-wrapper h1 {
+        font-size: 2em !important;
+        margin-right: 0em;
+       
+    }
+    .about-us-wrapper p {
+        font-family: 'abel';
+        margin-right: 14em;
+      
+    }
+
+    .about-us-wrapper .btn {
+        box-shadow: none !important;
+        position: relative;
+        top: 0em;
+    }
+    .about-us-wrapper .img1 {
+        width: 19em;
+        position: relative;
+        top: -3em;
+        left: 28em;
+      
+    }
+    .about-us-wrapper h2 {
+        margin-top: -1em;
+        text-align: center;
+        margin-bottom: 1em;
+        z-index: 9 !important;
+        position: relative;
+        padding: 0em 1em;
+    }
+
+    .feature-container {
+        margin-top: -15em;
+        margin-right: 0em;
+        margin-left: 0em;
+        padding: 0em 0em;
+        padding-left: 3em;
+    }
+    
+    .about-us-wrapper .feature-img {
+        width: 10em;
+    }
+    .feature-container div h4 {
+       
+        font-size: medium !important;
+        font-weight: 700;
+      
+    }
+    .feature-container div h6 {
+    
+        font-size: small !important;
+        font-weight: normal;
+    }
+    .feature2, .feature4 {
+        padding-left: 0em;
+    }
+    
+    .feature-card-container div {
+        width: 30%;
+        padding: 1em 3em;
+    }
+   
+
+   }
+
+   @media (min-width: 873px) and (max-width: 960px){
+    .footer {
+        height: 74%;
+        padding: 1.5em 2em;
+    }
+  
+    .about-us-head {
+        padding: 0em 0em;
+    }
+
+    .about-us-wrapper h1 {
+        font-size: 2em !important;
+        margin-right: 0em;
+       
+    }
+    .about-us-wrapper p {
+        font-family: 'abel';
+        margin-right: 14em;
+      
+    }
+
+    .wrapper .btn {
+        box-shadow: none !important;
+        position: relative;
+        top: -17em;
+    }
+    .about-us-wrapper .img1 {
+        width: 19em;
+        position: relative;
+        top: -3em;
+        left: 5em;
+    }
+    .about-us-wrapper h2 {
+        margin-top: -1em;
+        text-align: center;
+        margin-bottom: 1em;
+        z-index: 9 !important;
+        position: relative;
+        padding: 0em 1em;
+    }
+
+    .feature-container {
+        margin-top: -15em;
+        margin-right: 0em;
+        margin-left: 0em;
+        padding: 0em 0em;
+        padding-left: 6em;
+    }
+    
+    .about-us-wrapper .feature-img {
+        width: 13em;
+    }
+    .feature-container div h4 {
+       
+        font-size: medium !important;
+        font-weight: 700;
+      
+    }
+    .feature-container div h6 {
+    
+        font-size: small !important;
+        font-weight: normal;
+    }
+    .feature2, .feature4 {
+        padding-left: 0em;
+    }
+    
+    .feature-card-container div {
+        width: 30%;
+        padding: 1em 3em;
+    }
+   }
+
+   @media (min-width: 960px) and (max-width: 1024px){
+    .about-us-wrapper h1 {
+        font-size: 3em !important;
+        margin-right: 2em;
+        line-height: 1.5em;
+        font-weight: 900;
+        color: var(--Purpule-color);
+    }
+
+    .about-us-wrapper p {
+        font-family: 'abel';
+        margin-right: 18em;
+    }
+    .about-us-wrapper .btn {
+        padding: 0.7em 3em;
+        top: 0em;
+    }
+    .about-us-wrapper .img1 {
+        width: 25em;
+        position: relative;
+        top: -10em;
+        left: 26em; }
+
+        .feature-container {
+            margin-top: -15em;
+            margin-right: 0em;
+            margin-left: 0em;
+            padding: 0em 0em;
+            padding-left: 3em;
+        }
+        
+      .feature-img {
+            width: 17em;
+        }
+        .feature-container div h4 {
+           
+            font-size: medium !important;
+            font-weight: 700;
+          
+        }
+        .feature-container div h6 {
+        
+            font-size: small !important;
+            font-weight: normal;
+        }
+        .feature2, .feature4 {
+            padding-left: 0em;
+        }
+        
+        .feature-card-container div {
+            width: 30%;
+            padding: 1em 5em;
+        }
+   }
+
+   /* ***********************************
+   ----- medium & larg Laptops -------
+   ************************************** */
+@media (min-width: 1024px) and (max-width: 1279px) {
+
+    .nav-bar {
+        height: 12%;
+    }
+    .about-us-head {
+        padding: 0em 0em;
+    }
+    .about-us-wrapper h1 {
+        font-size: 3em !important;
+        margin-right: 7em;
+        line-height: 1.5em;
+        font-weight: 900;
+        color: var(--Purpule-color);
+    }
+    .about-us-wrapper p {
+        font-family: 'abel';
+        margin-right: 17em;
+    }
+    .about-us-wrapper .img1 {
+        width: 22em;
+        position: relative;
+        top: -5em;
+        left: 17em;
+      
+    }
+    .about-us-wrapper .btn {
+        text-decoration: none;
+        color: var(--white-color);
+        background-color: var(--Secondary-color);
+        font-size: medium;
+        font-family: 'Abel';
+        padding: 0.6em 3em;
+        box-shadow: none !important;
+        position: relative;
+        top: -20em;
+    }
+    .about-us-wrapper h2 {
+        margin-top: -1em;}
+
+        .feature-container {
+            margin-top: -15em;
+            margin-right: 0em;
+            margin-left: 0em;
+            padding: 0em 0em;
+            padding-left: 3em;
+        }
+        
+      .feature-img {
+            width: 17em;
+        }
+        .feature-container div h4 {
+           
+            font-size: medium !important;
+            font-weight: 700;
+          
+        }
+        .feature-container div h6 {
+        
+            font-size: small !important;
+            font-weight: normal;
+        }
+        .feature2, .feature4 {
+            padding-left: 0em;
+        }
+        
+        .feature-card-container div {
+            width: 30%;
+            padding: 1em 5em;
+        }  
+
+        .footer {
+            height: 64%;
+        }
+}
+
+
+   

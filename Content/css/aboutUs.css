@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=League+Spartan&family=Paprika&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Abel', sans-serif;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Paprika', cursive;
+
+}
+
+body a{
+    text-decoration: none;
+    color: #F97831;
+    font-weight: 700;
+}
+body li{
+    list-style-type: none;
+}
+body i{
+    color: var(--Purpule-color);
+}
+
+
+
+
+
+:root {
+    /*---Layout Color Palats------*/
+    --Secondary-color: #6C465C;
+    --Primary-color: #F8B9B3;
+    --accent-color: #F97831;
+    --background-color: #f9f4f4;
+    /*---Layout Color Palats---*/
+    --Purpule-color: #5E435A;
+    --grey-color: #404040;
+    --black-color: #000000;
+    --white-color: #ffffff;
+}
+
+
+h1 {
+    font-family: 'Paprika';
+    font-size: 55px;
+    letter-spacing: 4%;
+}
+
+h2 {
+
+    font-size: 35px;
+    letter-spacing: 4%;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h4 {
+    font-size: 20px;
+    font-family: 'Abel';
+    color: var(--grey-color);
+}
+
+
+.input{
+    margin: 1.4em 0em;
+    border-radius: 7px;
+    padding: 0em 15em 0em 1em;
+    height: 40px;
+    box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.330);
+    opacity: 80%;
+    border: none;
+    outline: none;
+    font-family: 'abel';
+    font-size: revert; 
+
+}
+
+.all-btn{
+    margin-right: 15em;
+    padding: 0.7em 0em;
+    border: none;
+    border-radius: 7px;
+    color: var(--background-color);
+    font-family: 'abel';
+    letter-spacing: 0.06em;
+    transition: ease-in-out 0.5s;
+
+
+}
+
+.all-btn {
+    box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.330);
+}
+
+
+
+
+.about-us-wrapper{
+ margin: 3em 4em;
+
+}
+
+.about-us-wrapper h1{
+    font-size: 3em !important;
+    margin-right: 11em;
+    line-height: 1.5em;
+    font-weight:900;
+    color: var(--Purpule-color);
+    
+}
+
+.about-us-wrapper p{
+    font-family: 'abel';
+    font-weight: 700;
+    margin-right: 48em;
+    letter-spacing: 1px;
+    color: var(--grey-color);
+    margin-bottom: 3em;
+    margin-top: 1em;
+    opacity: 80%;
+}
+
+.about-us-wrapper .btn{
+    text-decoration: none;
+    color: var(--white-color);
+    background-color: var(--Secondary-color);
+    font-size: medium;
+    font-family: 'Abel';
+    padding: 0.6em 3em;
+    box-shadow: none !important;
+    position: relative;
+    top: -23em;
+}
+
+.about-us-wrapper .btn:hover{
+    background-color: var(--accent-color);
+    box-shadow: 0px 4px 13px  rgba(0, 0, 0, 0.330) !important ;
+
+}
+
+.about-us-wrapper .img1{
+    width: 25em;
+    position: relative;
+    top: -14em;
+    left: 29em;
+    margin-right: 4em;
+    transform: translateY(0); /* Initial position */
+    animation: imageAnimation 3s ease-in-out 1;
+  
+   
+}
+
+@keyframes imageAnimation {
+    0%, 100% {
+      width: 25em; /* Initial width */
+      transform: translateY(0); /* Initial position */
+    }
+   50% {
+      width : 30em; /* Scaled width */
+      transform: translateY(-20px); /* Moved up slightly */
+    }}
+
+
+
+    .about-us-wrapper h2{
+        margin-top: -2em;
+        text-align: center;
+        margin-bottom: 1em;
+        z-index: 9 !important;
+        position: relative;
+
+    }
+    .about-us-wrapper .p{
+   text-align: center;
+   margin-right: 0em !important;
+   padding: 0% 20%;
+   position: relative;
+   font-weight: 700;
+   letter-spacing: 1px;
+  
+    }
+
+    .about-us-wrapper .blob1{
+        width: 22em;
+        position: relative;
+        top: -15em;
+        left: 9em;
+        z-index: 2;
+    }
+
+
+    .about-us-wrapper .feature-img{
+        width: 18em;
+    }
+
+    .feature-blob{
+        width: 19em;
+        z-index: 3;
+        position: relative;
+        left: 6em;
+    }
+
+    .feature-container div{
+        display: flex;
+    }
+
+    .feature-container div div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 60%;
+       
+    }
+
+
+    .feature2, .feature4{
+        padding-left: 8em;
+    }
+
+    .feature-container div h4{
+        text-align: start !important;
+        font-size: 2em !important;
+        font-weight: 500;
+      background-color: transparent !important;position: relative;
+      z-index: 6;
+      
+    }
+
+    .feature-container div h6{
+   line-height: 1.6em;
+   font-size: medium ;
+   color: var(--grey-color);
+   opacity: 55%;
+   letter-spacing: 1px;
+   position: relative;
+   z-index: 6;
+   font-family: 'abel' !important;
+    }
+
+    .feature-container{
+        margin-top: -15em;
+        margin-right: 5em;
+        margin-left: 5em;
+        padding: 0em 5em;
+    }
+
+
+    .about-us-head{
+        padding: 0em 5em;
+       
+    }

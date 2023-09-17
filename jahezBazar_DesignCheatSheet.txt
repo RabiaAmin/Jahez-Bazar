@@ -1,0 +1,11 @@
+  box-shadow: 0px 4px 13px  rgba(0, 0, 0, 0.330);
+
+
+   <div class="category-menu-container">
+                    <ul class="Category-list">
+                        <li><a class="Category-list-item" href="#">Action</a></li>
+                        <li><a class="Category-list-item" href="#">Another action</a></li>
+                        <li><a class="Category-list-item" href="#">Something else here</a></li>
+                        <li><a class="Category-list-item more-item" href="#"> see all</a></li>
+                      </ul>
+                </div>

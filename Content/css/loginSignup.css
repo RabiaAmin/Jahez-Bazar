@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=League+Spartan&family=Paprika&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Abel', sans-serif;
+   font-family: 'League Spartan', sans-serif;
+   font-family: 'Paprika', cursive;
+
+}
+
+body a{
+   text-decoration: none;
+   color: #F97831;
+   font-weight: 700;
+}
+body li{
+   list-style-type: none;
+}
+body i{
+   color: var(--Purpule-color);
+}
+
+
+
+
+
+:root {
+   /*---Layout Color Palats------*/
+   --Secondary-color: #6C465C;
+   --Primary-color: #F8B9B3;
+   --accent-color: #F97831;
+   --background-color: #f9f4f4;
+   /*---Layout Color Palats---*/
+   --Purpule-color: #5E435A;
+   --grey-color: #404040;
+   --black-color: #000000;
+   --white-color: #ffffff;
+}
+
+
+h1 {
+   font-family: 'Paprika';
+   font-size: 45px;
+   letter-spacing: 4%;
+}
+
+h2 {
+
+   font-size: 35px;
+   letter-spacing: 4%;
+}
+
+h3 {
+   font-size: 22px;
+}
+
+h4 {
+   font-size: 20px;
+   font-family: 'Abel';
+   color: var(--grey-color);
+}
+
+
+.input{
+   margin: 1em 0em;
+   border-radius: 7px;
+   padding: 0em 15em 0em 1em;
+   height: 40px;
+   box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.330);
+   opacity: 80%;
+   border: none;
+   outline: none;
+   font-family: 'abel';
+   font-size: revert; 
+
+}
+
+.all-btn{
+  
+   padding: 0.6em 3em;
+   border: none;
+   border-radius: 7px;
+   /* color: var(--background-color); */
+   font-family: 'abel';
+   letter-spacing: 0.06em;
+   transition: ease-in-out 0.5s;
+   color: var(--white-color);
+   background-color: var(--Purpule-color);
+
+
+}
+.left-btn{
+   box-shadow: none !important;
+   font-weight: unset;
+}
+.left-btn:hover{
+   box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.330) !important;
+   font-weight: 700;
+   background-color: var(--accent-color);
+}
+.right-btn:hover{
+   background-color: var(--accent-color);
+}
+.all-btn {
+   box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.330);
+}
+
+
+
+
+
+
+
+ /* ***********************************
+   ---------- login--------------------
+   ************************************** */
+   .login-wraper{
+      width: 100vw;
+      height: 100vh;
+      overflow-x: hidden;
+   }
+   
+   .login-container{
+   width: 100%;
+   height: 100%;
+   padding: 1em;
+   display: flex;
+   justify-content: center;
+
+   }
+   .login-container .login-container-left{
+width: 35%;
+background-image: url("../images/footer.png");
+padding: 1em;
+   }
+
+   .login-container .login-container-left h4{
+      text-align: center;
+      margin-top: 9em;
+      font-family: 'paprika';
+      font-size: large;
+      color: unset;
+   }
+   .login-container .login-container-left p{
+      font-family: 'abel';
+      font-size: medium;
+      color: var(--grey-color);
+      padding: 1em 0.8em;
+      text-align: center;
+      letter-spacing: 0.01em;
+      word-wrap: break-word;
+   }
+
+   .login-container-left div{
+    display: flex;
+    justify-content: center; 
+    margin-top: 1em;
+   }
+
+
+
+
+
+   .login-container-right{
+width: 65%;
+padding: 2em;
+display: flex;
+justify-content: center;
+background-color: var(--background-color);
+   }
+
+   .login-container-right div{
+      display: flex;
+      flex-direction: column;
+     
+      
+
+   }
+
+   .login-container-right h3{
+      margin-top: 4em;
+     
+     text-align: center;
+     color: var(--Purpule-color);
+   }
+   .login-form{
+      margin-top: 2em;
+       width: 100%;
+       z-index: 5;
+   }
+  
+
+   .login-form div{
+      display: flex;
+      flex-direction: row !important;
+      justify-content: space-between;
+      margin-bottom: 1em;
+   }
+
+   .login-form div li a{
+      font-size: medium;
+      font-weight: normal;
+      font-family: 'abel';
+      color: unset;
+   }
+   .login-form div li a:hover{
+      color: var(--white-color);
+   }
+   .login-form div label input{
+       accent-color: var(--accent-color);
+       
+   }
+   .login-form div label{
+      font-size: medium;
+      font-family: 'abel';
+   }
+
+   .right-btn{
+      margin: 1em 7em;
+      padding-left: 4.5em;
+      padding-right: 3em;
+      padding-top: 0.6em;
+      
+   }
+
+
+   .login-container-right img{
+      height: 15em;
+      z-index: 2;
+      margin-top: -9em;
+      margin-right: -20em;
+   }
+
+
+
+
+   .logo-for-moble-size{
+     margin-bottom: 1.5em;
+      height: 2.5em;
+      position: absolute;
+      top: 2.4em;
+      left: 2.4em;
+     display: none;
+   }
+
+
+
+
+   /* for become a seller page  */
+   .center-div{}
+   .become-seller-img{
+    margin: 1em 2em !important;
+    height: 24em !important;
+    
+   }
+
+   .seller-heading{
+      margin-top: 2em !important;
+   }
+
+   .seller-left-btn {
+      display: none;
+      padding: 0.5em 0em;
+      margin: 0em 1em;
+  }
+      
+
+  .btn-div{
+   text-align: center;
+   padding: 1em 2em;
+  }
