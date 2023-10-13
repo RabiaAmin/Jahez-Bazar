@@ -102,6 +102,8 @@ h4 {
     overflow-x: hidden;
 }
 
+
+
 /* ***********************************
    ---------- Top --------------------
    ************************************** */
@@ -209,16 +211,21 @@ transform: translateX(-0.5em);
     margin-left: 1em;
 }
 
+
 .category-list-wrap{
-    width: 40%;
-    height: auto;
+    width: 20%;
+    height: 90vh;
+    overflow-y: scroll;
     padding: 1em;
     display: none;
     justify-content: space-between;
+    flex-wrap: wrap;
     background-color: var(--background-color);
-  position:fixed;
+    position:fixed;
+    margin-top: 0em;
     z-index: 10;
-    
+  
+   
 }
 
 
